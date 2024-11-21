@@ -1,0 +1,290 @@
+/* General Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px; 
+  background-color: black;
+  border-bottom: 1px solid #333;
+  position: relative;
+  z-index: 10; 
+}
+
+/* Left Section */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.dropdown {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.drop-select{
+  border-radius: 15px;
+  max-width: 20px;
+  background: none;
+  color: #ffffff;
+}
+.search-box {
+  padding: 8px 10px;
+  border: 1px solid #666;
+  border-radius: 5px;
+  background-color: #222;
+  color: white;
+  outline: none;
+  flex: 1;
+  width: 100%; 
+  max-width: 250px; 
+  min-width: 150px; 
+}
+/* Center Logo */
+.logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 75px;
+  height: auto;
+}
+
+/* Right Section */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.menu a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  position: relative;
+  white-space: nowrap; 
+}
+
+.menu a.nasa-live {
+  color: #00AEEF;
+}
+
+.menu a.nasa-live .live {
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 5px;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+/* Hero Section */
+.hero-section {
+  position: absolute;
+  width: 100%;
+  height: 100vh; /* Full screen height */
+  background: url('images/54148307897-6f0c2249d3-o.webp') no-repeat center center/cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+/* Content Wrapper */
+.content-wrapper {
+  max-width: 700px;
+  margin-bottom: 300px;
+  margin-right: 1000px;
+  color: white;
+}
+
+.content-wrapper h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.content-wrapper p {
+  font-size: 1.9rem;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  background-color: #FF0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #cc0000;
+}
+
+/* Info Links Section */
+.info-links {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 20px 0;
+}
+
+.info-item {
+  text-align: center;
+}
+
+.info-item h3 {
+  font-size: 1.30rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.info-item p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: blue;
+}
+
+.info-item span {
+  font-size: 1.2rem;
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .content-wrapper h1 {
+    font-size: 2rem;
+  }
+
+  .content-wrapper p {
+    font-size: 1rem;
+  }
+
+  .cta-button {
+    font-size: 0.9rem;
+  }
+
+  .info-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .info-item p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .content-wrapper h1 {
+    font-size: 1.8rem;
+  }
+
+  .content-wrapper p {
+    font-size: 0.9rem;
+  }
+
+  .cta-button {
+    padding: 8px 15px;
+    font-size: 0.8rem;
+  }
+
+  .info-item h3 {
+    font-size: 0.9rem;
+  }
+
+  .info-item p {
+    font-size: 0.8rem;
+  }
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    padding: 15px; 
+  }
+
+  .logo {
+    position: static;
+    transform: none;
+    margin: 10px 0;
+    align-self: center;
+  }
+
+  .navbar-left, .navbar-right {
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+  }
+
+  .search-box {
+    flex: 1;
+    margin-left: 10px;
+    width: 100%; 
+  }
+
+  .menu a {
+    font-size: 14px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu a {
+    font-size: 12px;
+    margin-right: 5px;
+  }
+
+  .search-box {
+    margin-left: 0;
+    padding: 6px 8px;
+  }
+
+  .logo {
+    width: 60px; 
+  }
+}
+@media (max-width: 768px) {
+  .search-box {
+    width: 80%; 
+    max-width: 250px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .search-box {
+    width: 100%; 
+    max-width: none; 
+    margin: 5px 0;
+  }
+}
