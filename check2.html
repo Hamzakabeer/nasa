@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Universe Cards</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            width: 250px;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .card .btn {
+            color: #fff;
+            background-color: #e94e77;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        @media screen and (max-width: 768px) {
+            .container {
+                justify-content: center;
+            }
+
+            .card {
+                width: 200px;
+            }
+
+            .card h3 {
+                font-size: 1.2rem;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .card {
+                width: 100%;
+            }
+
+            .card h3 {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+            <img src="" alt="Exoplanets">
+            <div class="card-content">
+                <h3>Exoplanets</h3>
+                <a href="#" class="btn">Discover More</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="" alt="Stars">
+            <div class="card-content">
+                <h3>Stars</h3>
+                <a href="#" class="btn">Discover More</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="" alt="Black Holes">
+            <div class="card-content">
+                <h3>Black Holes</h3>
+                <a href="#" class="btn">Discover More</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="" alt="Galaxies">
+            <div class="card-content">
+                <h3>Galaxies</h3>
+                <a href="#" class="btn">Discover More</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
