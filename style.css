@@ -92,13 +92,7 @@ body, html {
 }
 
 
-/* General Styles */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  color: #fff;
-  background-color: #ffffff;
-}
+
 
 /* Hero Section */
 .hero-section {
@@ -223,12 +217,6 @@ body {
 }
 
 
-/* General Styles */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-}
 
 /* Featured News Section */
 .featured-news {
@@ -360,10 +348,6 @@ body {
 }
 
 
-
-body {
-  font-family: Arial, sans-serif;
-}
 
 /* Featured Section */
 .featured-section {
