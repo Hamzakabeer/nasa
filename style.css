@@ -7,7 +7,7 @@ body, html {
   color: white;
 }
 
-/* Navbar Styles */
+/* Navbar Section all header 1st portion ***************************************************************************/
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -52,6 +52,7 @@ body, html {
   max-width: 200px; 
   min-width: 150px; 
 }
+
 /* Center Logo */
 .logo {
   position: absolute;
@@ -92,7 +93,7 @@ body, html {
 }
 
 
-
+/* front-page attractive-page 2nd Portion ************************************************************************** */
 
 /* Hero Section */
 .hero-section {
@@ -161,7 +162,10 @@ body, html {
   background-color: #d62828;
 }
 
-/* Navigation Section */
+
+
+
+/* Navigation Section 2nd portion attach nav-link***********************************/
 .navigation {
   display: flex;
   flex-wrap: wrap;
@@ -196,29 +200,12 @@ body, html {
   text-decoration: underline;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .content h1 {
-    font-size: 2rem;
-  }
-
-  .content p {
-    font-size: 1rem;
-  }
-
-  .cta-button {
-    font-size: 0.9rem;
-  }
-
-  .nav-item {
-    flex: 1 1 100%;
-    margin: 10px 0;
-  }
-}
 
 
 
-/* Featured News Section */
+
+/* Featured News Images Section 3rd portion ************************** */
+
 .featured-news {
   max-width: 1200px;
   margin: 0 auto;
@@ -324,32 +311,12 @@ body, html {
 
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .news-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .main-news {
-    height: 300px;
-  }
-
-  .news-item {
-    height: 150px;
-  }
-
-  .news-header h1 {
-    font-size: 1.5rem;
-  }
-
-  .more-news {
-    font-size: 0.9rem;
-  }
-}
 
 
 
-/* Featured Section */
+
+/* Featured Section 4th portion video image ****************************************************/
+
 .featured-section {
   position: relative;
   display: flex;
@@ -420,24 +387,14 @@ body, html {
   background-color: #d62828;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .featured-content h1 {
-    font-size: 2rem;
-  }
-
-  .featured-content p {
-    font-size: 1rem;
-  }
-
-  .cta-button {
-    padding: 8px 16px;
-    font-size: 0.9rem;
-  }
-}
 
 
-/* 4card works */
+
+
+
+
+/* 4card works  5th portion 4 card image ********************************* */
+
 .universe-section {
   text-align: center;
   padding: 20px;
@@ -514,20 +471,8 @@ body, html {
   color: darkred;
 }
 
-/* Responsive Design */
-@media (max-width: 600px) {
-  .universe-section h1 {
-      font-size: 1.5rem;
-  }
 
-  .card h2 {
-      font-size: 1rem;
-  }
-
-  .card-link {
-      font-size: 1.2rem;
-  }
-}
+/* 7th portion Earth images and card exploring *************************** */
 
 .hero-section1 {
   height: 70vh;
@@ -575,26 +520,11 @@ body, html {
   color: red;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .hero-content h1 {
-    font-size: 2rem;
-  }
-
-  .hero-content p {
-    font-size: 0.9rem;
-  }
-
-  .explore-button {
-    font-size: 0.9rem;
-    padding: 8px 16px;
-  }
-}
 
 
 
+/* images card image of the day 8th portion ******************************************** */
 
-/* Layout Styles */
 .image-day-section {
   display: flex;
   flex-wrap: wrap;
@@ -696,6 +626,8 @@ body, html {
   transform: translateX(5px);
 }
 
+/* 9th portion 9 images i flex to 2 colum picture *********************************************** */
+
 
 .images-9-header{
   color: #000;
@@ -756,18 +688,7 @@ body, html {
   grid-row: 2 / 3; /* Bottom small image */
 }
 
-@media (max-width: 768px) {
-  .gallery-container {
-      flex-direction: column; /* Stacks boxes vertically on small screens */
-      align-items: center;
-  }
-
-  .gallery-boxs {
-      width: 100%; /* Adjust width for smaller screens */
-      height: auto;
-  }
-}
-
+/* video container about nasa auto play 10th portion **************************** */
 
 .section-container-1 {
   display: flex;
@@ -831,22 +752,8 @@ color: #000;
   background-color: #ddd; /* Placeholder background */
 }
 
-@media (max-width: 768px) {
-  .section-container-1 {
-      flex-direction: column;
-      text-align: center;
-  }
 
-  .text-content-1 {
-      margin: 0 0 20px;
-  }
-
-  .media-content-1 {
-      max-width: 100%;
-  }
-}
-
-
+/* 11th portion container glaxy images and card heading signup ********************************************************* */
 
 .container-glaxy {
   background: url('images/bgimageglaxy.webp') no-repeat center center;
@@ -900,19 +807,9 @@ a {
   font-size: 1.2em;
 }
 
-@media (max-width: 600px) {
-  h1 {
-      font-size: 1.5em;
-  }
-  p {
-      font-size: 0.9em;
-  }
-  .sign-up-glaxy {
-      padding: 8px 16px;
-      font-size: 1em;
-  }
-}
 
+
+/* 8th card space images card size 12th portion *********************************************************** */
 
 .container-space {
   width: 100%;
@@ -970,43 +867,9 @@ h1 {
   color: red;
 }
 
-@media (max-width: 768px) {
-  .gallery-space {
-      padding: 15px;
-  }
-
-  .gallery-space h2 {
-      font-size: 18px;
-  }
-
-  .gallery-space p {
-      font-size: 12px;
-  }
-
-  .arrow {
-      font-size: 20px;
-  }
-}
-
-@media (max-width: 480px) {
-  .gallery-space {
-      padding: 10px;
-  }
-
-  .gallery-space h2 {
-      font-size: 16px;
-  }
-
-  .gallery-space p {
-      font-size: 10px;
-  }
-
-  .arrow {
-      font-size: 18px;
-  }
-}
 
 
+/* 13 portion  all footer works ************************************************************ */
 
 .footer {
   background-color: #000;
@@ -1096,95 +959,18 @@ h1 {
   font-size: 12px;
 }
 
-@media (max-width: 768px) {
-  .footer-column {
-      width: 45%;
-  }
 
-  .footer-description h3 {
-      font-size: 1.2em;
-  }
 
-  .footer-credits {
-      font-size: 10px;
-  }
-}
 
-@media (max-width: 480px) {
-  .footer-column {
-      width: 100%;
-  }
 
-  .footer-description h3 {
-      font-size: 1em;
-  }
-
-  .footer-description p {
-      font-size: 0.9em;
-  }
-
-  .footer-description a {
-      font-size: 0.9em;
-  }
-
-  .footer-column h4 {
-      font-size: 1em;
-  }
-
-  .footer-column li {
-      font-size: 0.9em;
-  }
-
-  .footer-credits {
-      font-size: 8px;
+/* All Media Quries */
+@media (min-width: 768px) {
+  body {
+     width: 100%;
+     margin: 0;
+     padding: 0;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .image-day-section {
-    flex-direction: column;
-
-  }
-
-  .content2 {
-    margin-right: 0;
-    margin-bottom: 20px;
-  }
-
-  .word1 {
-    font-size: 2rem;
-  }
-
-  .word2 {
-    font-size: 1.3rem;
-  }
-
-  .word3 {
-    font-size: 0.9rem;
-  }
-
-  .view-image-link1 {
-    font-size: 0.9rem;
-  }
-}
-
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -1217,7 +1003,174 @@ h1 {
     font-size: 14px;
     margin-right: 10px;
   }
+
+.content h1 {
+    font-size: 0.5rem;
+    top:  80px;
+  }
+
+  .content p {
+    font-size: 0.40rem;
+    margin-bottom: 60px;
+
+  
+  }
+
+  .cta-button {
+  display:none;
+ 
+  }
+
+  .nav-item {
+    flex: 1 1 100%;
+    margin: 10px 0;
+  }
+
+.news-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .main-news {
+    height: 300px;
+  }
+
+  .news-item {
+    height: 150px;
+  }
+
+  .news-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .more-news {
+    font-size: 0.9rem;
+  }
+.featured-content h1 {
+    font-size: 0.9;
+  }
+
+  .featured-content p {
+    font-size: 0.5rem;
+  }
+
+  .cta-button {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+.hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 0.9rem;
+  }
+
+  .explore-button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+.gallery-container {
+      flex-direction: column; /* Stacks boxes vertically on small screens */
+      align-items: center;
+  }
+
+  .gallery-boxs {
+      width: 100%; /* Adjust width for smaller screens */
+      height: auto;
+  }
+.section-container-1 {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .text-content-1 {
+      margin: 0 0 20px;
+  }
+
+  .media-content-1 {
+      max-width: 100%;
+  }
+.gallery-space {
+      padding: 15px;
+  }
+
+  .gallery-space h2 {
+      font-size: 18px;
+  }
+
+  .gallery-space p {
+      font-size: 12px;
+  }
+
+  .arrow {
+      font-size: 20px;
+  }
+.footer-column {
+      width: 45%;
+  }
+
+  .footer-description h3 {
+      font-size: 1.2em;
+  }
+
+  .footer-credits {
+      font-size: 10px;
+  }
+.image-day-section {
+    flex-direction: column;
+
+  }
+
+  .content2 {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .word1 {
+    font-size: 2rem;
+  }
+
+  .word2 {
+    font-size: 1.3rem;
+  }
+
+  .word3 {
+    font-size: 0.9rem;
+  }
+
+  .view-image-link1 {
+    font-size: 0.9rem;
+  }
+
 }
+
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .universe-section h1 {
+      font-size: 1.5rem;
+  }
+
+  .card h2 {
+      font-size: 1rem;
+  }
+
+  .card-link {
+      font-size: 1.2rem;
+  }
+
+ h1 {
+      font-size: 1.5em;
+  }
+  p {
+      font-size: 0.9em;
+  }
+  .sign-up-glaxy {
+      padding: 8px 16px;
+      font-size: 1em;
+  }
+}
+
 
 @media (max-width: 480px) {
   .menu a {
@@ -1233,12 +1186,60 @@ h1 {
   .logo {
     width: 60px; 
   }
-}
 
-@media (max-width: 480px) {
   .search-box {
     width: 100%; 
     max-width: none; 
     margin: 5px 0;
+ .gallery-space {
+      padding: 10px;
   }
+
+  .gallery-space h2 {
+      font-size: 16px;
+  }
+
+  .gallery-space p {
+      font-size: 10px;
+  }
+
+  .arrow {
+      font-size: 18px;
+  }
+  .footer-column {
+      width: 100%;
+  }
+
+  .footer-description h3 {
+      font-size: 1em;
+  }
+
+  .footer-description p {
+      font-size: 0.9em;
+  }
+
+  .footer-description a {
+      font-size: 0.9em;
+  }
+
+  .footer-column h4 {
+      font-size: 1em;
+  }
+
+  .footer-column li {
+      font-size: 0.9em;
+  }
+
+  .footer-credits {
+      font-size: 8px;
+  }
+   
+ }
+
 }
+
+
+
+
+
+
