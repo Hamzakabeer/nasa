@@ -1310,6 +1310,7 @@ h1 {
 
   .container-space {
     width: 80%;
+    margin-right: 20px;
   }
 
   .footer-column {
